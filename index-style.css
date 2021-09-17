@@ -4,23 +4,10 @@
     font-family: sans-serif;
 }
 .container{
-    width: 100%;
-    height: 250%;
+    width:fit-content;
+    height: fit-content;
     background: #000000;
 }
-.main-photo img{
-    width: 1500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10%;
-}
-figcaption {
-    color: white;
-    font-style: italic;
-    padding: 2px;
-    text-align: center;
-  }
 .title{
     display: block;
     margin-top: 10px;
@@ -29,6 +16,27 @@ figcaption {
     font-size: 80px;
     font-family: "Times New Roman", Times, serif;
     color: white;
+    background-color: rgb(34, 37, 37);
+}
+.main-photo img{
+    width: 1500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    margin-top: 90px;
+}
+figcaption {
+    color: white;
+    padding: 2px;
+    font-style:italic;
+    font-size: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+  }
+h1 {
+    color:rgb(0, 250, 250)
 }
 .info{
     display: block;
@@ -60,28 +68,35 @@ figcaption {
     color: white;
 }
 .purpose{
-    display: block;
-    margin-top: 20px;
-    text-align: center;
+    display: inline-block;
+    margin-top: 80px;
+    text-align:center;
     font-weight: 200;
     font-size: 30px;
     color: white;
+    margin-right: 900px;
+    margin-left: 100px;
 }
 .program{
-    display: block;
+    display: inline-block;
     margin-top: 20px;
     text-align: center;
     font-weight: 200;
     font-size: 30px;
     color: white;
+    margin-left: 900px;
+    margin-right: 100px;
+
 }
 .users{
     display: block;
-    margin-top: 20px;
+    margin-top: 60px;
     text-align: center;
     font-weight: 200;
     font-size: 30px;
     color: white;
+    margin-left: 300px;
+    margin-right: 300px
 }
 .dropbtn{
     background-color:rgb(74, 88, 88);
