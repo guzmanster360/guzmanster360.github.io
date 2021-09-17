@@ -4,8 +4,8 @@
     font-family: sans-serif;
 }
 .container4{
-    width: 100%;
-    height: 250%;
+    width: fit-content;
+    height: fit-content;
     background: #000000;
 }
 .title{
@@ -16,11 +16,64 @@
     font-size: 80px;
     font-family: "Times New Roman", Times, serif;
     color: white;
+    background-color: rgb(34, 37, 37);
 }
+.heading{
+    display: block;
+    margin-top: 90px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 80px;
+    font-family: "Times New Roman", Times, serif;
+    color:rgb(0, 250, 250)
+  }
 .book img{
-    display:
+    width: 600px;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
 }
-.dropbtn{
+figcaption {
+    color: white;
+    padding: 2px;
+    font-style:italic;
+    font-size: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+  }
+h1 {
+    font-size: 50px;
+}
+.article {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+.book-sum {
+    display: relative;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+.interview{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+iframe {
+    display: block;
+    border-style:none;
+}
+.dropbtn {
     background-color:rgb(74, 88, 88);
     color:white;
     padding: 16px;
